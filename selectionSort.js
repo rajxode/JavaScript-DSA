@@ -4,10 +4,10 @@ const selectionSort = (arr) => {
     // size of array
     const size = arr.length;
     
-    // map of over each element and compare it to the all element's present after it
+    // map over each element
     for( let i = 0; i < size - 1; i++){
         for(let j = i+1; j < size; j++){
-            // compare all the element with the first element 
+            // compare all the elements with the first element 
             // if any element is small, then swap
             if(arr[i] > arr[j]){
                 // swapping element
